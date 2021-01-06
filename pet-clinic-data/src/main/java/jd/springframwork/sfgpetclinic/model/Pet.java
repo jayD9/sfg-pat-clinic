@@ -3,10 +3,6 @@ package jd.springframwork.sfgpetclinic.model;
 
 import java.time.LocalDate;
 
-/**
- * @Author JD
- * @create 1/5/21 12:58 AM
- */
 public class Pet  {
 
     private PetType petType;
