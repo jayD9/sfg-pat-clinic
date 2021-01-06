@@ -14,7 +14,7 @@
     </parent>
     <groupId>jd.springframwork</groupId>
     <artifactId>sfg-pat-clinic</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.4-SNAPSHOT</version>
     <name>sfg-pat-clinic</name>
     <description>SFG Pat Clinic</description>
 
@@ -42,7 +42,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:jayD9/sfg-pet-clinic.git</developerConnection>
-      <tag>sfg-pat-clinic-0.0.3</tag>
+      <tag>sfg-pat-clinic-0.0.1</tag>
   </scm>
 
 </project>
