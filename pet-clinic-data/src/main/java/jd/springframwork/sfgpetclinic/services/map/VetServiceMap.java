@@ -2,6 +2,7 @@ package jd.springframwork.sfgpetclinic.services.map;
 
 import jd.springframwork.sfgpetclinic.model.Vet;
 import jd.springframwork.sfgpetclinic.services.CrudService;
+import jd.springframwork.sfgpetclinic.services.VetService;
 
 import java.util.Set;
 
@@ -9,7 +10,7 @@ import java.util.Set;
  * author JD
  * created 1/7/21 3:32 PM
  */
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
         return super.findAll();
